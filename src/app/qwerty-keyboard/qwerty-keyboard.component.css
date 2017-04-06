@@ -1,11 +1,15 @@
 #container {
-  width: 100%;
+  width: -webkit-calc(100% - 230px);
+  width: -moz-calc(100% - 230px);
+  width: calc(100% - 230px);
+  margin: 10px 0px 0px 110px;
+  min-width: 920px;
 }
 #write {
   margin: 0 0 5px;
   padding: 5px;
   width: 100%;
-  height: 200px;
+  height: 150px;
   font: 1em/1.5 Verdana, Sans-Serif;
   background: #fff;
   border: 1px solid #f9f9f9;
@@ -16,7 +20,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 100%;
+  display: table;
+  margin: 0 auto;
 }
 #keyboard li {
   float:left;

@@ -1,0 +1,46 @@
+.vertical-district {
+    width: 200px;
+    height: 100px;
+    background-color: #607D8B;
+    text-align: center;
+}
+.horizontal-district {
+    width: 100px;
+    height: 200px;
+    background-color: #607D8B;
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    text-align: center;
+}
+.left {
+    display: inline-block;
+}
+.right {
+    display: inline-block;
+    right: 0px;
+}
+.up {
+    margin: 0 auto;
+}
+.down {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -100px;
+}
+.hint {
+    color: rgba(255, 255, 255, .87);
+    font-size: 18px;
+    font-weight: 600;
+}
+.vertical-text {
+    line-height: 100px;
+}
+.horizontal-text {
+    line-height: 200px;
+}
+.selected {
+    background-color: #CFD8DC !important;
+    color: rgba(0, 0, 0, 0.87);
+}

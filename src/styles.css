@@ -2,10 +2,10 @@
 * {
   margin: 0;
   padding: 0;
-  width:100%;
+  /*width:100%;*/
 }
 body {
-  font: 71%/1.5 Verdana, Sans-Serif;
-  background: #eee;
+  font-family: 'Roboto', serif;
+  background-color: #fafafa;
   width:100%;
 }

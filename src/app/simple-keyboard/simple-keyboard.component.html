@@ -1,0 +1,14 @@
+<!--<p>{{ activatedCommand }}</p>
+<input [(ngModel)]="message"  /><button (click)="sendMessage()">Send</button>`-->
+<section [class.selected]="activatedCommand === 'up'" class="up vertical-district">
+    <p class="hint vertical-text">up</p>
+</section>
+<section [class.selected]="activatedCommand === 'left'" class="left horizontal-district">
+    <p class="hint horizontal-text">left</p>
+</section>
+<section [class.selected]="activatedCommand === 'right'" class="right horizontal-district">
+    <p class="hint horizontal-text">right</p>
+</section>
+<section [class.selected]="activatedCommand === 'down'" class="down vertical-district">
+    <p class="hint vertical-text">down</p>
+</section>
